@@ -248,6 +248,7 @@ header {
     height: 100%;
     width: 100%;
     padding-bottom: 50px;
+    padding-top: 30px;
 }
 .connexion-button {
     background: rgb(253, 245, 242);
@@ -262,6 +263,21 @@ header {
 }
 .connexion-button:hover {
     background: rgb(235, 87, 87, .15);
+}
+
+
+/**
+** FOOTER
+**/
+footer {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+h6 {
+    font-size: 14px;
+    color: #666665;
 }
 
 
@@ -296,4 +312,8 @@ header {
     .login-container {
         display: none;
     }
+    h6 {
+        font-size: 12px;
+        color: #666665;
+    }    
 }

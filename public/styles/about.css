@@ -1,0 +1,131 @@
+.toile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 25vh;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 23px;
+}
+.first-space {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.first-space h1 {
+    line-height: 1.1;
+    font-family: "sf-pro-bold";
+    font-size: 60px;
+    width: 70%;
+    min-width: 880px;
+    margin-top: 10px;
+}
+.first-space span {
+    color: #666665;
+}
+.second-space {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.second-space img {
+    height: 300px;
+    width: 300px;
+    margin-right: 130px;
+    transition: .7s ease;
+}
+.second-space p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 50%;
+    line-height: 1.4;
+    color: #666665;
+    letter-spacing: 1px;
+}
+p {
+    -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
+
+
+/**
+** MEDIA QUERIES
+**/
+@media screen and (min-width: 1900px) {
+    .toile {
+        height: 100vh;
+        padding-top: 23vh;
+    }
+    .first-space h1 {
+        width: 100%;
+        min-width: 100%;
+        font-size: 85px;
+    }
+    .first-space span {
+        font-size: 24px;
+    }
+    .second-space p {
+        font-size: 24px;
+    }
+    .second-space img {
+        height: 400px;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .first-space h1 {
+        width: 100%;
+        min-width: 100%;
+    }
+    .second-space {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-space p {
+        margin-top: 70px;
+        width: 90%;
+    }
+    .second-space img {
+        height: 250px;
+        width: 250px;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    .toile {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+    }
+    .first-space h1 {
+        font-size: 45px;
+    }
+    .first-space span {
+        font-size: 18px;
+    }
+    .second-space p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .toile {
+        padding-top: 20vh;
+    }
+    .first-space h1 {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .second-space p {
+        margin-top: 40px;
+    }
+    .second-space img {
+        height: 200px;
+        width: 200px;
+    }
+}

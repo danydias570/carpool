@@ -20,3 +20,32 @@
         </a>
     </div>
 </div>
+<header>
+    <div class="inner-header">
+        <nav class="menu">
+            <ul class="link-list">
+                <li>
+                    <a class="logo-link" href="/?page=home">
+                        <img src="../assets/images/carpool.svg" alt="Logo de la société carpool">
+                        <span class="logo">Carpool</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="link" href="/?page=about">À propos</a>
+                </li>
+                <li>
+                    <a class="link" href="/?page=contact">Contact</a>
+                </li>
+            </ul>
+            <div class="login-container">
+                <a class="link connexion" href="/?page=login">Connexion</a>
+                <a class="animated-button" href="/?page=signup">
+                    <span>Essayer Carpool gratuitement</span>
+                </a>
+            </div>
+        </nav>
+        <div class="burgermenu collapse">
+            <span></span>
+        </div>
+    </div>
+</header>

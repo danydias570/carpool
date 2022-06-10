@@ -17,7 +17,7 @@
     font-family: "sf-pro-bold";
     font-size: 60px;
 }
-.text-container h2 {
+.text-container p {
     margin-top: 20px;
     font-size: 20px;
     line-height: 1.55;
@@ -27,6 +27,8 @@
 }
 .text-button {
     width: 225.5px;
+}
+.text-container .text-button {
     margin-top: 20px;
 }
 .image-container {
@@ -51,7 +53,7 @@
     .text-container h1 {
         font-size: 85px;
     }
-    .text-container h2 {
+    .text-container p {
         font-size: 24px;
     }
     .image-container img {
@@ -89,7 +91,7 @@
     .text-container h1 {
         text-align: center;
     }
-    .text-container h2 {
+    .text-container p {
         text-align: center;
     }
     .image-container {
@@ -113,7 +115,7 @@
     .text-container h1 {
         font-size: 45px;
     }
-    .text-container h2 {
+    .text-container p {
         font-size: 18px;
     }
 }
